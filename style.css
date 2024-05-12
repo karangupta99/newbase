@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, orange, orangered);
+    display: flex;
+    position: relative;
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+    background-color: black;
+}
+
+.left img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+
+.left h4 {
+    font-size: 15px;
+    color: white;
+    font-family: rubik;
+    font-weight: 600;
+}
+
+.left h5 {
+    font-size: 15px;
+    color: white;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 30px;
+}
+
+.right {
+    height: 100%;
+    width: 70%;
+
+    clip-path: polygon(100% 0%, 100% 51%, 100% 98%, 3% 98%, 0 36%, 6% 0);
+}
+
+.box {
+    height: 200px;
+    width: 550px;
+    background-color: rgba(59, 58, 58, 0.431);
+    background: linear-gradient(to right, orangered, orange);
+    padding: 10px 15px;
+    clip-path: polygon(0% 0%, 84% 0, 100% 50%, 83% 100%, 0% 100%);
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.box h4 {
+    font-size: 25px;
+    color: white;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.box h5 {
+    font-size: 25px;
+    color: white;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.box-text {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: white;
+    font-family: lato;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+    font-family: lato;
+}
+
+.box-2 {
+    height: 150px;
+    width: 100%;
+    background-color: rgba(59, 58, 58, 0.431);
+    padding: 0px 180px;
+    background-image: url(WhatsApp\ Image\ 2024-05-11\ at\ 13.20.14_b3195dfd.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 20px 0px;
+
+}
+
+.box-2 img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.box-3 {
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to right, orangered, orange);
+}
+
+.icon-1 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: white;
+    padding: 0px 15px;
+}
+
+.icon-1 i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.icon-1 h3 {
+    color: black;
+    font-size: 20px;
+
+}
+
+.icon-2 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: white;
+    padding: 2px 15px;
+}
+
+.icon-2 i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.icon-2 h1 {
+    color: black;
+    font-size: 20px;
+
+}
+
+.icon-3 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: white;
+    padding: 0px 15px;
+}
+
+.icon-3 i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.icon-3 h1 {
+    color: black;
+    font-size: 20px;
+
+}
+.icon-4 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: white;
+    padding: 0px 15px;
+}
+
+.icon-4 i {
+    color: white;
+    font-size: 20px;
+
+}
+
+.icon-4 h1 {
+    color: black;
+    font-size: 20px;
+
+}
+
+
+
+.right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom {
+    height: 0px;
+    width: 400px;
+
+    position: absolute;
+
+    top: 88%;
+    left: 40%;
+    color: white;
+    background: linear-gradient(to right, red, yellow);
+}
+
+.bottom-text {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: white;
+}
+
+.bottom h5 {
+    color: white;
+    font-size: 15px;
+}
+
+span {
+    color: white;
+}
